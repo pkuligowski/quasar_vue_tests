@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  python:
+    container_name: frontend
+    image: frontend/node:20
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    tty: true
+    ports:
+      - 8081:8081
+    deploy:
+        restart_policy:
+            condition: on-failure
+    volumes:
+      - ./:/mnt/frontend
