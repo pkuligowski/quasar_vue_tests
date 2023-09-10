@@ -4,6 +4,6 @@ RUN apk update
 RUN apk add make
 
 RUN npm i -g @quasar/cli
-WORKDIR /mnt/frontend
+WORKDIR /mnt/frontend/tutorial
 
 EXPOSE 9000
