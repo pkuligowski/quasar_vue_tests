@@ -3,7 +3,7 @@ Experiments in Quasar Vuejs framework. Used Quasar configuration with `yarn crea
 * app with quasar cli,
 * Quasar 2 (Vue 3),
 * javascript, Vite,
-* Saas,
+* SCSS,
 * ESLint,
 * Pinia,
 * Axios,

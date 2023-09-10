@@ -6,4 +6,4 @@ RUN apk add make
 RUN npm i -g @quasar/cli
 WORKDIR /mnt/frontend
 
-EXPOSE 8081
+EXPOSE 9000
