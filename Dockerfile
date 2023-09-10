@@ -1,4 +1,4 @@
-FROM node:20.6.0-alpine3.17
+FROM node:18.17.1-alpine3.17
 
 RUN apk update
 RUN apk add make
